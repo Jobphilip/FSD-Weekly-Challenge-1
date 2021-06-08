@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black !important;
+    /* overflow: hidden; */
+}
+
+.center-align-items {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-bg {
+    background-size: cover;
+    position: relative;
+    background-image: url("images/Lark20210608-092519.jpg");
+    background-repeat: no-repeat;
+}
+
+.size-70 {
+    height: 70vh;
+    width: 70vw;
+}
+
+.main-card {
+    background-image: url("images/cPMDJ6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: none;
+    /* Do not scale the image */
+    object-position: center;
+    
+}
+
+.sub-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-image-circ-crop {
+    border-radius: 50%;
+}
+ 
+#name {
+    font-weight: bold;
+    color: black;
+}
+
+#des {
+    color: black;
+}
